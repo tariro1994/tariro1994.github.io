@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width:800px) {
+    .left , .main, .right {width:100%;}
+  }
+
+header{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(mark-cruz-698935-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ul{
+    margin:0px;
+    padding: 5px;
+    list-style: none;
+    float: right;
+    
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 30px;
+    font-family: Advent Pro;
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 14px;
+}
+li a:hover{
+           font-size: 16px;
+           border: 2px solid white;
+           
+}
+
+li a:active{
+    border: 2px solid mediumspringgreen;
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.container{
+     margin: 450px 300px auto 330px;
+     padding: 20px;
+     width: 200px;
+     display: inline-block;
+     background-color: mediumspringgreen;
+     text-align: center;
+     font-size: 20px;
+     box-shadow: 5px 5px 0 rgb(1, 24, 1);
+     font-family: Advent Pro;
+     
+}
+.container a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.container:hover{
+    background-color: aqua;
+    box-shadow: 5px 5px 0 rgb(2, 62, 65);
+}
+.container2{
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+    background-color: mediumspringgreen;
+    margin: 450px -200px auto;
+    text-align: center;
+    box-shadow: 5px 5px 0px rgb(1, 24, 1);
+    font-family: Advent Pro;
+    font-size: 20px;
+}
+.container2 a{
+    text-decoration: none;
+    color: antiquewhite;
+    cursor: pointer;
+
+}
+.container2:hover{
+    background-color: aqua;
+    box-shadow: 5px 5px 0 rgb(2, 62, 65);
+}
+button{
+    background-color: crimson;
+    border-radius: 25px;
+    margin: 5px;
+    border: 0px;
+    font-family: cursive;
+    width: 70px;
+    text-align: center;
+    box-shadow: 20px;
+}
+#kicker{
+    
+    width: 300px;
+    height: 70px;
+    border: 5px solid double;
+    padding: 50px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 90px auto;
+}
+h1{
+    font-family: Advent Pro;
+    color: white;
+    font-size: 72px;
+    letter-spacing: 0.3em;
+    text-align: center;
+    text-shadow: 5px 5px 0px mediumspringgreen;
+}
+p{
+    color: white;
+    font-family: Advent Pro;
+    font-size: 12px;
+}
+hr{
+    color: white;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: mediumseagreen;
+    left: 0px;
+    bottom:0px;
+    position: fixed;
+    opacity: 0.7;
+}
